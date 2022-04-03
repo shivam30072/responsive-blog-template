@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navigation{
+  font-family: var(--font1);
+ /* height : 68px; 
+  /*background-color: green; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.nav-left{
+    font-size: 20px;
+    display: flex;
+  
+}
+
+.nav-left span{
+    font-size: 35px;
+}
+
+.nav-left ul{
+    display: flex;
+    align-items: center;
+    margin: 0 60px;
+    font-size: 25px;
+}
+
+.nav-left ul li{
+    list-style: none;
+    margin: 0 14px;
+    font-family: var(--font2);
+    transition: all 0.1s ease-in-out;
+}
+.nav-left ul li:hover{
+    color: var(--main-bg-color);
+    font-weight: bolder;
+}
+.nav-left ul li a{
+    text-decoration: none;
+    color: black;
+}
+.content{
+    height : 100%;
+    display: flex;
+    margin-top: 92px;
+    position: relative;
+}
+
+.content::after{
+    content: "";
+    background-image: url('../img/11.svg');
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    opacity: 0.15;
+}
+
+.content-left{
+font-family: var(--font1);
+display: flex;
+justify-content: center;
+flex-direction: column;
+padding: 49px;
+z-index: 1;
+}
+.content-right{
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content-right img{
+    height: 315px;
+    border: 2px solid black;
+    border-radius: 178px;
+
+} 
+.home-articles{
+   
+  background-color: rgb(252, 245, 245); 
+    padding-top: 10px;
+    position: relative;
+}
+
+.year-box{
+    position: absolute;
+    height: 255px;
+    right: 25px;
+    top: 100px;
+    width: 234px;
+    font-size: 20px;
+}
+
+.year-box div{
+    margin: 12px 0px;
+}
+
+.home-articles h2{
+        padding-left: 54px;
+        margin-top: 23px;
+}
+.home-article{
+    display: flex;
+     margin: 25px;
+     padding-left: 28px;
+}
+
+.home-article img{
+    width: 250px;
+}
+
+.home-article-content{
+    align-self: center;
+    padding: 25px;
+}
+.home-article-content a{
+    text-decoration: none;
+    color: black;
+}
+.footer{
+    height : 40px;
+ background-color: var(--main-bg-color); 
+ justify-content: center;
+ display: flex;
+ align-items: center;
+}
+
+.footer p{
+    color: white;
+}
+
+.nav-left img{
+    width: 93px;
+    padding-top: 21px;
+}
